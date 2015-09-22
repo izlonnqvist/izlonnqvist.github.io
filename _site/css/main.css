@@ -734,3 +734,19 @@ h2 {
     height: 0;
     margin: 0;
     line-height: 0; } }
+
+.skillset {
+  width: 100%;
+  float: left; }
+
+.skillset #photoshop:before {
+  content: "Photoshop ";
+  width: 150px; }
+
+.skillset #indesign:before {
+  content: "InDesign ";
+  width: 150px; }
+
+.skillset #illustrator:before {
+  content: "Illustrator ";
+  width: 150px; }
