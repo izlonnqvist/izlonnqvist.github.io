@@ -1,7 +1,7 @@
 # Site settings
-title: My Blog
-email: coolwebconfs@gmail.com
-description: My simple blog.
+title: Izabella Lönnqvist
+email: izabellaricko@gmail.com
+description: Portfolio
 baseurl: ""
 url: ""
 twitter_username: 
@@ -19,7 +19,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      author: "My Author" # Set default author name
+      author: "Izabella Lönnqvist" # Set default author name
       categories: "cats"
       layout: "post"
       comments: true
