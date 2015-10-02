@@ -3,7 +3,7 @@ title: Izabella Lönnqvist
 email: izabellaricko@gmail.com
 description: Portfolio
 baseurl: ""
-url: ""
+url: "https://izlonnqvist.se"
 paginate: 3
 
 # Build settings
@@ -18,7 +18,7 @@ defaults:
       type: "posts"
     values:
       author: "Izabella Lönnqvist" # Set default author name
-      categories: "cats"
+      categories: ""
       layout: "post"
       comments: true
   -
