@@ -6,20 +6,33 @@
 .skillset {
     #photoshop:before {
         content: "Photoshop ";
-        width: 150px;
     }
+    width: 150px;
 }
 
 .skillset {
     #indesign:before {
         content: "InDesign ";
-        width: 150px;
     }
+    width: 150px;
 }
 
 .skillset {
     #illustrator:before {
         content: "Illustrator ";
-        width: 150px;
     }
+    width: 150px;
+}
+
+p {
+    color: #303030;
+    font-family: 'Arvo', serif;
+}
+
+h1, h2 {
+    font-family: 'Crete Round', serif;
+}
+
+.nav>li {
+    float: left;
 }
