@@ -1,6 +1,6 @@
 ---
-title: Contact
+title: Kontakt
 permalink: /contact/
 ---
 
-Hey there! To get in touch, [send me an email](mailto:{{ site.email }}).
+Hej! För att nå mig, [skicka ett mejl](mailto:{{ site.email }}).
