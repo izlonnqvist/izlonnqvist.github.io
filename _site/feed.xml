@@ -1,43 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Izabella Lönnqvist</title>
-    <description>Portfolio</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 22 Sep 2015 22:00:50 +0200</pubDate>
-    <lastBuildDate>Tue, 22 Sep 2015 22:00:50 +0200</lastBuildDate>
+    <title>izlo</title>
+    <description>Izabella Lönnqvists portfolio, tillhörande kursen Internetpublicering, Digital Design HT15.
+</description>
+    <link>izlonnqvist.se/testsida/</link>
+    <atom:link href="izlonnqvist.se/testsida/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 15 Oct 2015 21:57:24 +0200</pubDate>
+    <lastBuildDate>Thu, 15 Oct 2015 21:57:24 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
-        <title>Val av koncept</title>
-        <description>&lt;p&gt;Mitt första blogginlägg.&lt;/p&gt;
+        <title>Nyheter</title>
+        <description>&lt;p&gt;Hejhej&lt;/p&gt;
 </description>
-        <pubDate>Tue, 22 Sep 2015 00:00:00 +0200</pubDate>
-        <link>/Konceptval</link>
-        <guid isPermaLink="true">/Konceptval</guid>
+        <pubDate>Thu, 15 Oct 2015 14:48:23 +0200</pubDate>
+        <link>izlonnqvist.se/testsida/dd15/nytt/2015/10/15/post2.html</link>
+        <guid isPermaLink="true">izlonnqvist.se/testsida/dd15/nytt/2015/10/15/post2.html</guid>
         
         
         <category>dd15</category>
         
+        <category>nytt</category>
+        
       </item>
     
       <item>
-        <title>My First Post</title>
-        <description>&lt;p&gt;Hi there. This will be your first blog post—I hope you’re excited! To get started, give this post a new title by replacing “My First Post” with your post’s title.&lt;/p&gt;
+        <title>Presentation av koncept</title>
+        <description>&lt;p&gt;&lt;strong&gt;Koncept “DansAlarm”&lt;/strong&gt;
+&lt;img src=&quot;/testsida/img/koncept2.jpg&quot; alt=&quot;DansAlarm&quot; title=&quot;DansAlarm&quot; class=&quot;post-image&quot; /&gt;
+Jag har valt konceptet “DansAlarm” att visa upp, då det var ett av mina mer genomtänkta koncept. Det här är en väckarklocka som spelar musik och projicerar en discoljus i taket (ingenting för dig som går upp tidigare än din sambo), och för att stänga av den måste du utföra tre (eller fler!) danssteg. Dessa danssteg går att ställa in via en touchskärm på sidan av alarmet, som även styr musikval och satt alarm.&lt;/p&gt;
 
-&lt;p&gt;You can change the post’s author name in the &lt;code&gt;_config.yml&lt;/code&gt; file, or add an &lt;code&gt;author&lt;/code&gt; variable in the front matter block.&lt;/p&gt;
-
-&lt;p&gt;To change the post image, replace the image name with your new image. If you don’t want to use an image in this post, delete the image variable in the front matter.&lt;/p&gt;
-
-&lt;p&gt;Have fun blogging!&lt;/p&gt;
+&lt;p&gt;Alarmet har två högtalare, en kamera liknande den som finns till Kinect (som läser av dina rörelser och ser till att alarmet kan stängas av) samt två lampor. Båda lamporna sätter igång en ljusshow när alarmet går igång. Framsidan har en skärm som visar klockan och även dansstegen när det är dags. Kameran har en liten felmarginal, man ska inte behöva kunna utföra dansstegen perfekt för att stänga av den, utan man kan missa någon rörelse. Huvudsaken är att man kommer upp.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 15 May 2015 00:00:00 +0200</pubDate>
-        <link>/first-post</link>
-        <guid isPermaLink="true">/first-post</guid>
+        <pubDate>Tue, 13 Oct 2015 00:53:23 +0200</pubDate>
+        <link>izlonnqvist.se/testsida/dd15/koncept/2015/10/13/post1.html</link>
+        <guid isPermaLink="true">izlonnqvist.se/testsida/dd15/koncept/2015/10/13/post1.html</guid>
         
         
-        <category>sample</category>
+        <category>dd15</category>
+        
+        <category>koncept</category>
+        
+      </item>
+    
+      <item>
+        <title>Mitt första inlägg</title>
+        <description>&lt;p&gt;Välkomna till min portfolio! Här finns arbeten från programmet Digital Design samt mina egna projekt.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Oct 2015 23:38:08 +0200</pubDate>
+        <link>izlonnqvist.se/testsida/dd15/allm%C3%A4nt/2015/10/12/hej.html</link>
+        <guid isPermaLink="true">izlonnqvist.se/testsida/dd15/allm%C3%A4nt/2015/10/12/hej.html</guid>
+        
+        
+        <category>dd15</category>
+        
+        <category>allmänt</category>
         
       </item>
     
