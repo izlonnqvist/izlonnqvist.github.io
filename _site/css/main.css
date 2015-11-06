@@ -356,8 +356,6 @@ pre {
 
 .archive ul {
   list-style: none; }
-  .archive ul li:before {
-    content: "*"; }
 
 .center-image {
   margin: 0 auto;
