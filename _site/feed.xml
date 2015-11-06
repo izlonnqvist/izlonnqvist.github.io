@@ -2,40 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>izlo</title>
-    <description>Izabella Lönnqvists portfolio, tillhörande kursen Internetpublicering, Digital Design HT15.
+    <description>Izabella Lönnqvists portfolio, Digital Design HT15.
 </description>
-    <link>izlonnqvist.se/testsida/</link>
-    <atom:link href="izlonnqvist.se/testsida/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Oct 2015 21:57:24 +0200</pubDate>
-    <lastBuildDate>Thu, 15 Oct 2015 21:57:24 +0200</lastBuildDate>
+    <link>izlonnqvist.se/</link>
+    <atom:link href="izlonnqvist.se/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 06 Nov 2015 19:03:35 +0100</pubDate>
+    <lastBuildDate>Fri, 06 Nov 2015 19:03:35 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
-    
-      <item>
-        <title>Nyheter</title>
-        <description>&lt;p&gt;Hejhej&lt;/p&gt;
-</description>
-        <pubDate>Thu, 15 Oct 2015 14:48:23 +0200</pubDate>
-        <link>izlonnqvist.se/testsida/dd15/nytt/2015/10/15/post2.html</link>
-        <guid isPermaLink="true">izlonnqvist.se/testsida/dd15/nytt/2015/10/15/post2.html</guid>
-        
-        
-        <category>dd15</category>
-        
-        <category>nytt</category>
-        
-      </item>
     
       <item>
         <title>Presentation av koncept</title>
         <description>&lt;p&gt;&lt;strong&gt;Koncept “DansAlarm”&lt;/strong&gt;
-&lt;img src=&quot;/testsida/img/koncept2.jpg&quot; alt=&quot;DansAlarm&quot; title=&quot;DansAlarm&quot; class=&quot;post-image&quot; /&gt;
+&lt;img src=&quot;img/koncept2.jpg&quot; alt=&quot;DansAlarm&quot; title=&quot;DansAlarm&quot; class=&quot;post-image&quot; /&gt;
 Jag har valt konceptet “DansAlarm” att visa upp, då det var ett av mina mer genomtänkta koncept. Det här är en väckarklocka som spelar musik och projicerar en discoljus i taket (ingenting för dig som går upp tidigare än din sambo), och för att stänga av den måste du utföra tre (eller fler!) danssteg. Dessa danssteg går att ställa in via en touchskärm på sidan av alarmet, som även styr musikval och satt alarm.&lt;/p&gt;
 
 &lt;p&gt;Alarmet har två högtalare, en kamera liknande den som finns till Kinect (som läser av dina rörelser och ser till att alarmet kan stängas av) samt två lampor. Båda lamporna sätter igång en ljusshow när alarmet går igång. Framsidan har en skärm som visar klockan och även dansstegen när det är dags. Kameran har en liten felmarginal, man ska inte behöva kunna utföra dansstegen perfekt för att stänga av den, utan man kan missa någon rörelse. Huvudsaken är att man kommer upp.&lt;/p&gt;
 </description>
         <pubDate>Tue, 13 Oct 2015 00:53:23 +0200</pubDate>
-        <link>izlonnqvist.se/testsida/dd15/koncept/2015/10/13/post1.html</link>
-        <guid isPermaLink="true">izlonnqvist.se/testsida/dd15/koncept/2015/10/13/post1.html</guid>
+        <link>izlonnqvist.se/dd15/koncept/2015/10/13/post1.html</link>
+        <guid isPermaLink="true">izlonnqvist.se/dd15/koncept/2015/10/13/post1.html</guid>
         
         
         <category>dd15</category>
@@ -49,8 +34,8 @@ Jag har valt konceptet “DansAlarm” att visa upp, då det var ett av mina mer
         <description>&lt;p&gt;Välkomna till min portfolio! Här finns arbeten från programmet Digital Design samt mina egna projekt.&lt;/p&gt;
 </description>
         <pubDate>Mon, 12 Oct 2015 23:38:08 +0200</pubDate>
-        <link>izlonnqvist.se/testsida/dd15/allm%C3%A4nt/2015/10/12/hej.html</link>
-        <guid isPermaLink="true">izlonnqvist.se/testsida/dd15/allm%C3%A4nt/2015/10/12/hej.html</guid>
+        <link>izlonnqvist.se/dd15/allm%C3%A4nt/2015/10/12/hej.html</link>
+        <guid isPermaLink="true">izlonnqvist.se/dd15/allm%C3%A4nt/2015/10/12/hej.html</guid>
         
         
         <category>dd15</category>

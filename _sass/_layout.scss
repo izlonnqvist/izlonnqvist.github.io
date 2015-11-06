@@ -21,7 +21,7 @@
 
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: #fff;
     }
 }
 
@@ -34,7 +34,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: #fff;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -88,7 +88,11 @@
     }
 }
 
-
+.active {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 2px;
+    padding: 5px;
+}
 
 /**
  * Site footer
@@ -170,6 +174,7 @@
 
 .page-heading {
     font-size: 20px;
+    font-family: 'Bitter', serif;
 }
 
 .post-list {
@@ -205,6 +210,7 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
+    font-family: 'Bitter', serif;
 
     @include media-query($on-laptop) {
         font-size: 36px;
