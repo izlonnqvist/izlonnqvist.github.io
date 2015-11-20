@@ -20,26 +20,11 @@ body {
   -webkit-text-size-adjust: 100%; }
 
 /**
- * Top presentation
+ * Header image
  */
-.presentation {
-  height: 200px;
-  color: #111;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px; }
-  .presentation .left-info {
-    text-align: right;
-    border-right: 1px dashed #086986;
-    float: left;
-    height: 140px; }
-    @media screen and (max-width: 600px) {
-      .presentation .left-info {
-        border: 0px;
-        text-align: left;
-        width: 250px; } }
-  @media screen and (max-width: 600px) {
-    .presentation .right-info {
-      display: none; } }
+.header-image {
+  margin: 0 auto;
+  display: block; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -95,6 +80,12 @@ a {
     color: #111;
     text-decoration: none; }
 
+p > a {
+  border-bottom: 2px solid #778899; }
+
+nav a:hover {
+  border-bottom: 2px solid #778899; }
+
 /**
  * Blockquotes
  */
@@ -133,7 +124,7 @@ pre {
  * Wrappers
  */
 .wrapper-nav {
-  background-color: #086986;
+  background-color: dimgray;
   padding-right: 20px;
   padding-left: 20px; }
   @media screen and (max-width: 800px) {
@@ -213,7 +204,8 @@ pre {
       background-color: #fdfdfd;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
-      text-align: right; }
+      text-align: right;
+      color: dimgray; }
       .site-nav .menu-icon {
         display: block;
         float: right;
@@ -247,7 +239,8 @@ pre {
  */
 .site-footer {
   border-top: 1px solid #e8e8e8;
-  padding: 20px 0; }
+  padding: 20px 0;
+  background-color: dimgrey; }
 
 .footer-heading {
   font-size: 18px;
@@ -269,16 +262,16 @@ pre {
   padding-left: 10px; }
 
 .footer-col-1 {
-  width: -webkit-calc(25% - (20px / 2));
-  width: calc(25% - (20px / 2)); }
+  width: -webkit-calc(30% - (20px / 2));
+  width: calc(30% - (20px / 2)); }
 
 .footer-col-2 {
-  width: -webkit-calc(50% - (20px / 2));
-  width: calc(50% - (20px / 2)); }
+  width: -webkit-calc(30% - (20px / 2));
+  width: calc(30% - (20px / 2)); }
 
 .footer-col-3 {
-  width: -webkit-calc(25% - (20px / 2));
-  width: calc(25% - (20px / 2)); }
+  width: -webkit-calc(30% - (20px / 2));
+  width: calc(30% - (20px / 2)); }
 
 @media screen and (max-width: 800px) {
   .footer-col-1,
@@ -369,10 +362,6 @@ pre {
 
 .about-pic {
   float: left; }
-
-.info-box {
-  border-top: 5px solid #086986;
-  padding-top: 10px; }
 
 /**
  * Syntax highlighting styles

@@ -51,6 +51,7 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
+        color: dimgray;
 
         .menu-icon {
             display: block;
@@ -100,6 +101,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: dimgrey;
 }
 
 .footer-heading {
@@ -127,18 +129,18 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
-    width:         calc(25% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-    width:         calc(50% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(25% - (#{$spacing-unit} / 2));
-    width:         calc(25% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -267,9 +269,4 @@
 
 .about-pic {
     float: left;
-}
-
-.info-box {
-    border-top: 5px solid #086986;
-    padding-top: 10px;
 }

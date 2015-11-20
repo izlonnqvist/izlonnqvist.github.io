@@ -24,32 +24,12 @@ body {
 }
 
 /**
- * Top presentation
+ * Header image
  */
-.presentation {
-    height: 200px;
-    color: $text-color;
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    
-    .left-info {
-        text-align: right;
-        border-right: 1px dashed #086986;
-        float: left;
-        height: 140px;
-        
-        @include media-query($on-palm) {
-                border: 0px;
-                text-align: left;
-                width: 250px;
-            }
-    }
-    
-    .right-info {
-        @include media-query($on-palm) {
-                display: none;
-            }
-    }
+
+.header-image {
+    margin: 0 auto;
+    display: block;
 }
 
 /**
@@ -130,7 +110,13 @@ a {
     }
 }
 
+p > a {
+        border-bottom: 2px solid #778899;
+}
 
+nav a:hover {
+        border-bottom: 2px solid #778899;
+}
 
 /**
  * Blockquotes
@@ -182,7 +168,7 @@ pre {
  * Wrappers
  */
 .wrapper-nav {
-    background-color: #086986;
+    background-color: dimgray;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
     @extend %clearfix;
