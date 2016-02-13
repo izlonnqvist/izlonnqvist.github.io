@@ -101,7 +101,6 @@
 
 .info-box {
     display: block;
-    width: 500px;
     height: 100%;
     float: left;
     padding: 20px;
@@ -110,13 +109,6 @@
         color: dimgray;
         font-size: 16px;
     }
-    
-    @include media-query($on-palm) {
-    .info-box {
-        float: none;
-        width: 100%;
-    }
-}
 }
 
 /**
