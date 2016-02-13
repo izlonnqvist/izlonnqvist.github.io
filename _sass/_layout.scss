@@ -96,12 +96,37 @@
 }
 
 /**
+ * Infobox i header 
+ */
+
+.info-box {
+    display: block;
+    background-color: #f7f7f7;
+    width: 500px;
+    height: 100%;
+    float: left;
+    padding: 20px;
+    
+    .p {
+        color: dimgray;
+        font-size: 16px;
+    }
+    
+    @include media-query($on-palm) {
+    .info-box {
+        float: none;
+        width: 100%;
+    }
+}
+}
+
+/**
  * Site footer
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
-    background-color: dimgrey;
+    background-color: #f7f7f7;
 }
 
 .footer-heading {
@@ -171,7 +196,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
-    background-color: $background-color;
+    background-color: transparent;
 }
 
 .page-heading {
@@ -185,7 +210,7 @@
 
     > li {
         margin-bottom: $spacing-unit;
-        border-bottom: 1px dashed #086986;
+        border-bottom: 3px solid #fff;
     }
 }
 

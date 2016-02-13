@@ -7,6 +7,9 @@ dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0; }
 
+body, html {
+  height: 100%; }
+
 /**
  * Basic styling
  */
@@ -72,10 +75,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #086986;
+  color: #A30046;
   text-decoration: none; }
   a:visited {
-    color: #04303e; }
+    color: #570025; }
   a:hover {
     color: #111;
     text-decoration: none; }
@@ -137,7 +140,7 @@ pre {
 .wrapper-content {
   max-width: -webkit-calc(800px - (20px * 2));
   max-width: calc(800px - (20px * 2));
-  margin-right: auto;
+  margin-right: 0;
   margin-left: auto;
   padding-right: 20px;
   padding-left: 20px; }
@@ -201,7 +204,7 @@ pre {
       position: absolute;
       top: 9px;
       right: 30px;
-      background-color: #fdfdfd;
+      background-color: #f7f7f7;
       border: 1px solid #e8e8e8;
       border-radius: 5px;
       text-align: right;
@@ -235,12 +238,30 @@ pre {
   padding: 5px; }
 
 /**
+ * Infobox i header 
+ */
+.info-box {
+  display: block;
+  background-color: #f7f7f7;
+  width: 500px;
+  height: 100%;
+  float: left;
+  padding: 20px; }
+  .info-box .p {
+    color: dimgray;
+    font-size: 16px; }
+  @media screen and (max-width: 600px) {
+    .info-box .info-box {
+      float: none;
+      width: 100%; } }
+
+/**
  * Site footer
  */
 .site-footer {
   border-top: 1px solid #e8e8e8;
   padding: 20px 0;
-  background-color: dimgrey; }
+  background-color: #f7f7f7; }
 
 .footer-heading {
   font-size: 18px;
@@ -292,7 +313,7 @@ pre {
  */
 .page-content {
   padding: 20px 0;
-  background-color: #fdfdfd; }
+  background-color: transparent; }
 
 .page-heading {
   font-size: 20px;
@@ -303,7 +324,7 @@ pre {
   list-style: none; }
   .post-list > li {
     margin-bottom: 20px;
-    border-bottom: 1px dashed #086986; }
+    border-bottom: 3px solid #fff; }
 
 .post-meta {
   font-size: 14px;
@@ -355,10 +376,8 @@ pre {
   display: block; }
 
 .post-image {
-  width: 30%;
-  height: 30%;
-  float: left;
-  padding-right: 10px; }
+  margin: 0 auto;
+  display: block; }
 
 .about-pic {
   float: left; }

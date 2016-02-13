@@ -6,15 +6,46 @@
 </description>
     <link>izlonnqvist.se/</link>
     <atom:link href="izlonnqvist.se/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 Nov 2015 14:23:39 +0100</pubDate>
-    <lastBuildDate>Fri, 20 Nov 2015 14:23:39 +0100</lastBuildDate>
+    <pubDate>Sat, 13 Feb 2016 20:57:03 +0100</pubDate>
+    <lastBuildDate>Sat, 13 Feb 2016 20:57:03 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
+        <title>Djupdykning i den sociala webben</title>
+        <description>&lt;p&gt;&lt;a href=&quot;/pdf/5_viktiga_principer.pdf&quot;&gt;Rapporten&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Här är min rapport över den sociala webben, som är första delprovet i kursen &lt;em&gt;Webbdesign i social interaktion&lt;/em&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 13 Jan 2016 19:11:00 +0100</pubDate>
+        <link>izlonnqvist.se/dd15/2016/01/13/Socialrapport.html</link>
+        <guid isPermaLink="true">izlonnqvist.se/dd15/2016/01/13/Socialrapport.html</guid>
+        
+        
+        <category>dd15</category>
+        
+      </item>
+    
+      <item>
+        <title>Manus och storyboard</title>
+        <description>&lt;p&gt;&lt;a href=&quot;/pdf/manus_izabella_lonnqvist.pdf&quot;&gt;Manus&lt;/a&gt;
+&lt;a href=&quot;/pdf/storyboard_izabella_lonnqvist.pdf&quot;&gt;Storyboard&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Här är mitt manus och min storyboard till kursen &lt;em&gt;Rörlig Bild&lt;/em&gt;, delprov 7.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 09 Dec 2015 21:54:00 +0100</pubDate>
+        <link>izlonnqvist.se/dd15/2015/12/09/manus.html</link>
+        <guid isPermaLink="true">izlonnqvist.se/dd15/2015/12/09/manus.html</guid>
+        
+        
+        <category>dd15</category>
+        
+      </item>
+    
+      <item>
         <title>Presentation av koncept</title>
-        <description>&lt;p&gt;&lt;strong&gt;Koncept “DansAlarm”&lt;/strong&gt;
-&lt;img src=&quot;img/koncept2.jpg&quot; alt=&quot;DansAlarm&quot; title=&quot;DansAlarm&quot; class=&quot;post-image&quot; /&gt;
-Jag har valt konceptet “DansAlarm” att visa upp, då det var ett av mina mer genomtänkta koncept. Det här är en väckarklocka som spelar musik och projicerar en discoljus i taket (ingenting för dig som går upp tidigare än din sambo), och för att stänga av den måste du utföra tre (eller fler!) danssteg. Dessa danssteg går att ställa in via en touchskärm på sidan av alarmet, som även styr musikval och satt alarm.&lt;/p&gt;
+        <description>&lt;p&gt;Jag har valt konceptet “DansAlarm” att visa upp, då det var ett av mina mer genomtänkta koncept. Det här är en väckarklocka som spelar musik och projicerar en discoljus i taket (ingenting för dig som går upp tidigare än din sambo), och för att stänga av den måste du utföra tre (eller fler!) danssteg. Dessa danssteg går att ställa in via en touchskärm på sidan av alarmet, som även styr musikval och satt alarm.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/img/koncept2_liten.png&quot; alt=&quot;DansAlarm&quot; title=&quot;DansAlarm&quot; class=&quot;post-image&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Alarmet har två högtalare, en kamera liknande den som finns till Kinect (som läser av dina rörelser och ser till att alarmet kan stängas av) samt två lampor. Båda lamporna sätter igång en ljusshow när alarmet går igång. Framsidan har en skärm som visar klockan och även dansstegen när det är dags. Kameran har en liten felmarginal, man ska inte behöva kunna utföra dansstegen perfekt för att stänga av den, utan man kan missa någon rörelse. Huvudsaken är att man kommer upp.&lt;/p&gt;
 </description>
