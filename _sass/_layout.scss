@@ -101,7 +101,6 @@
 
 .info-box {
     display: block;
-    background-color: #f7f7f7;
     width: 500px;
     height: 100%;
     float: left;
@@ -196,7 +195,7 @@
  */
 .page-content {
     padding: $spacing-unit 0;
-    background-color: transparent;
+    background-color: $background-color;
 }
 
 .page-heading {
@@ -210,18 +209,22 @@
 
     > li {
         margin-bottom: $spacing-unit;
-        border-bottom: 3px solid #fff;
+        background-color: #fff;
+        padding: 20px;
     }
 }
 
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    border-bottom: 2px solid #bdc3c7;
 }
 
 .post-link {
     display: block;
     font-size: 24px;
+    padding: 2px;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 
@@ -237,7 +240,7 @@
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
-    font-family: 'Bitter', serif;
+    font-family: 'Fjalla One', sans-serif;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -246,6 +249,8 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
+    background-color: #fff;
+    padding: 20px;
 
     h2 {
         font-size: 32px;

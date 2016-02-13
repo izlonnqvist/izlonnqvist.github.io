@@ -7,9 +7,6 @@ dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0; }
 
-body, html {
-  height: 100%; }
-
 /**
  * Basic styling
  */
@@ -75,19 +72,21 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #A30046;
+  color: #524149;
   text-decoration: none; }
   a:visited {
-    color: #570025; }
+    color: #271f23; }
   a:hover {
     color: #111;
-    text-decoration: none; }
+    text-decoration: none;
+    letter-spacing: 2px; }
 
 p > a {
-  border-bottom: 2px solid #778899; }
+  background-color: orange;
+  padding: 3px; }
 
 nav a:hover {
-  border-bottom: 2px solid #778899; }
+  border-bottom: 2px solid orange; }
 
 /**
  * Blockquotes
@@ -242,7 +241,6 @@ pre {
  */
 .info-box {
   display: block;
-  background-color: #f7f7f7;
   width: 500px;
   height: 100%;
   float: left;
@@ -313,7 +311,7 @@ pre {
  */
 .page-content {
   padding: 20px 0;
-  background-color: transparent; }
+  background-color: #f7f7f7; }
 
 .page-heading {
   font-size: 20px;
@@ -324,15 +322,19 @@ pre {
   list-style: none; }
   .post-list > li {
     margin-bottom: 20px;
-    border-bottom: 3px solid #fff; }
+    background-color: #fff;
+    padding: 20px; }
 
 .post-meta {
   font-size: 14px;
-  color: #828282; }
+  color: #828282;
+  border-bottom: 2px solid #bdc3c7; }
 
 .post-link {
   display: block;
-  font-size: 24px; }
+  font-size: 24px;
+  padding: 2px;
+  font-family: 'Fjalla One', sans-serif; }
 
 /**
  * Posts
@@ -344,13 +346,15 @@ pre {
   font-size: 42px;
   letter-spacing: -1px;
   line-height: 1;
-  font-family: 'Bitter', serif; }
+  font-family: 'Fjalla One', sans-serif; }
   @media screen and (max-width: 800px) {
     .post-title {
       font-size: 36px; } }
 
 .post-content {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px; }
   .post-content h2 {
     font-size: 32px; }
     @media screen and (max-width: 800px) {
