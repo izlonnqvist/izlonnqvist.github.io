@@ -319,7 +319,8 @@ pre {
 .page-content {
   padding: 20px 0;
   background-color: #f7f7f7;
-  max-width: 1400px; }
+  max-width: 1400px;
+  margin: auto 0; }
 
 .page-heading {
   font-size: 20px;
