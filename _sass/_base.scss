@@ -106,7 +106,7 @@ a {
     &:hover {
         color: $text-color;
         text-decoration: none;
-        letter-spacing: 2px;
+        background-color: coral;
     }
 }
 
@@ -116,7 +116,7 @@ p > a {
 }
 
 nav a:hover {
-        border-bottom: 2px solid orange;
+        background-color: coral;
 }
 
 /**

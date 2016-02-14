@@ -102,15 +102,8 @@
 .info-box {
     display: block;
     float: left;
-    padding: 0px 20px 10px 30px;
+    padding: 0px 20px 10px 20px;
     margin-bottom: 15px;
-    
-    p {
-        color: #524149;
-        font-size: 16px;
-        text-align: center;
-        padding-top: 10px;
-    }
     
     ul {
         list-style: none;
@@ -118,11 +111,19 @@
     
     li > a {
         display: block;
-        float: left;
+        text-align: center;
         padding: 5px;
         background-color: orange;
         margin: 10px;
     }
+}
+
+.contacts {
+    display: block;
+    color: #524149;
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
 }
 
 /**
