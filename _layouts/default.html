@@ -12,17 +12,11 @@
             <h1 class="post-title author">Izabella Lönnqvist</h1>
             <img src="/img/header_pic.png" class="center-image">
             <p>Hej! Välkommen till min portfolio. Den är just nu under uppbyggnad.</p>
-              <div class="trigger">
-                <ul>
-                {% for page in site.pages %}
-                {% if page.title %}
-                <li>
-                    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                </li>
-                {% endif %}
-                {% endfor %}
-                </ul>
-                </div>
+            <ul>
+                <li><a href="https://www.facebook.com/rickolonnqvist">Facebook</a></li>
+                <li><a href="http://izzilar.deviantart.com/">DeviantArt</a></li>
+                <li><a href="https://se.pinterest.com/belllziz_1/">Pinterest</a></li>
+            </ul>
         </div>
       <div class="wrapper-content">
         {{ content }}

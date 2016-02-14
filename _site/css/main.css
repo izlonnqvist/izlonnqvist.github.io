@@ -242,11 +242,21 @@ pre {
 .info-box {
   display: block;
   float: left;
-  padding: 0px 20px 10px 30px; }
+  padding: 0px 20px 10px 30px;
+  margin-bottom: 15px; }
   .info-box p {
     color: #524149;
     font-size: 16px;
-    text-align: center; }
+    text-align: center;
+    padding-top: 10px; }
+  .info-box ul {
+    list-style: none; }
+  .info-box li > a {
+    display: block;
+    float: left;
+    padding: 10px;
+    background-color: orange;
+    margin: 10px; }
 
 /**
  * Site footer
