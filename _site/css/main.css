@@ -242,10 +242,11 @@ pre {
 .info-box {
   display: block;
   float: left;
-  padding: 20px; }
-  .info-box .p {
-    color: dimgray;
-    font-size: 16px; }
+  padding: 0px 20px 10px 30px; }
+  .info-box p {
+    color: #524149;
+    font-size: 16px;
+    text-align: center; }
 
 /**
  * Site footer
@@ -305,7 +306,8 @@ pre {
  */
 .page-content {
   padding: 20px 0;
-  background-color: #f7f7f7; }
+  background-color: #f7f7f7;
+  max-width: 1400px; }
 
 .page-heading {
   font-size: 20px;
@@ -379,6 +381,9 @@ pre {
 
 .about-pic {
   float: left; }
+
+.author {
+  text-align: center; }
 
 /**
  * Syntax highlighting styles

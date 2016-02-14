@@ -102,11 +102,12 @@
 .info-box {
     display: block;
     float: left;
-    padding: 20px;
+    padding: 0px 20px 10px 30px;
     
-    .p {
-        color: dimgray;
+    p {
+        color: #524149;
         font-size: 16px;
+        text-align: center;
     }
 }
 
@@ -187,6 +188,7 @@
 .page-content {
     padding: $spacing-unit 0;
     background-color: $background-color;
+    max-width: 1400px;
 }
 
 .page-heading {
@@ -288,4 +290,8 @@
 
 .about-pic {
     float: left;
+}
+
+.author {
+    text-align: center;
 }
